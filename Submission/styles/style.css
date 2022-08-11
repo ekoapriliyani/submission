@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+	font-family: 'Bree Serif', serif;
+}
+
+header {
+	display: inline;
+	position: fixed;
+	width: 100%;
+}
+
+nav {
+	padding: 5px;
+	background-color: #EF5B0C;
+	box-shadow: 0px 1px 1px 1px white;
+}
+
+nav a {
+	font-size: 14px;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	margin-left: 15px;
+}
+
+hr {
+	width: 20%;
+}
+
+
+#content {
+	float: left;
+}
+
+main {
+	overflow: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+article {
+	text-align: center;
+}
+
+aside {
+	text-align: center;
+	padding: 20px;
+}
+
+aside ul {
+	text-align: left;
+}
+
+.biodata img {
+	width: 150px;
+	border-radius: 100%;
+}
+
+footer {
+    color: white;
+    background-color: #003865;
+    text-align: right;
+    font-weight: bold;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+} 
+
+footer a img {
+	width: 30px;
+	margin-left: 10px;
+}
+
+.container {
+	display: flex;
+	text-align: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.box {
+	padding: 10px;
+	width: 100%;
+	background-color: #EF5B0C;
+	border-radius: 5%;
+	margin-top: 10px;
+	box-shadow: 0px 0px 5px 5px white;
+}
+
+.services {
+	background-color: #003865;
+}
+.services h4 {
+	color: white;
+}
+.services p {
+	color: white;
+}
+.services:hover {
+	box-shadow: 0px 0px 10px 5px #EF5B0C;
+}
+
+.team {
+	background-color: #EF5B0C;
+}.team h4 {
+	color: white;
+}
+.team h3 {
+	color: white;
+}
+.team:hover {
+	box-shadow: 0px 0px 10px 5px #003865;
+}
+
+@media screen and (min-width: 1024px) {
+	.container {
+		width: 1024px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.box {
+		width: 30%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+body {
+	background-color: #D4F6CC;
+}
+
+.hubungi {
+	width: 200px;
+	height: 50px;
+	background-color: green;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	border-radius: 50px;
+	box-shadow: 0px 0px 2px 2px white;
+	line-height: 50px;
+	padding: 5px;
+	opacity: 0.7;
+}
+
+#wa {
+	width: 40px;	
+}
+
+.hubungi a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.hubungi a:hover {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.hubungi:hover {
+	width: 200px;
+	height: 50px;
+	background-color: green;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	border-radius: 50px;
+	box-shadow: 0px 0px 2px 2px white;
+	line-height: 50px;
+	padding: 5px;
+	opacity: 1;
+}
